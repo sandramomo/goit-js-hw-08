@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+}
+.gallery {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 16px;
+}
+.gallery-item {
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 360px;
+  height: 200px;
+  border: 1px solid black;
+}
+.gallery-item:hover {
+  border: 1px solid deeppink;
+}
+.modal {
+    background-color: aliceblue;
+   padding: 24px;
+   border-radius: 16px;
+
+}
